@@ -6,7 +6,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    res.json("AAA");
+    res.render("room");
 })
 
 server.listen(3000);
